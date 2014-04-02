@@ -1,4 +1,8 @@
-browser_extension_packager
-==========================
+Browser Extension Packager.
+=============
 
-Will package .crx, .xpi and .oex files using grunt.js.
+This Packager will one day package browser extensions.
+
+Currently can build a not functioning xpi for firefox
+and a crx file for iron, chromium, opera and google chrome
+

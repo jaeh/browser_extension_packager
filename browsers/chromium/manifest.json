@@ -1,0 +1,28 @@
+{
+  "name": "bashersgonnabash",
+  "version": "0.23.5",
+  "background": { "scripts": ["background.js"] },
+  "manifest_version": 2,
+  "description": "",
+  "browser_action": {
+    "default_icon": "icon_16.png"
+  },
+  "content_scripts": [{
+      "matches": [
+        "http://bwb.is",
+        "https://bwb.is"
+      ],
+      "css": [ "css/stylus.css" ]
+  }],
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "https://*/*",
+    "http://*/*",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "icon_16.png",
+    "64": "icon_64.png"
+  }
+}

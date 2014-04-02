@@ -1,0 +1,21 @@
+{
+  "name": "bash",
+  "version": "0.23.5",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-nodeunit": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-stylus": "latest",
+    "grunt-contrib-jade": "latest",
+    "jade": "latest",
+    "stylus": "latest",
+    "chance": "latest",
+    "grunt-zip": "~0.13.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-crx": "~0.3.3",
+    "grunt-mozilla-addon-sdk": "~0.3.2",
+    "grunt-contrib-requirejs": "~0.4.3",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+chromium.pem
+out
+build
+tmp
+node_modules
+mozilla-addon-sdk
